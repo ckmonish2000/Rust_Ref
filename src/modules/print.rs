@@ -1,3 +1,9 @@
 pub fn run(){
-  println!("hello run");
+  /*
+  multi line comment
+  bro
+  */ 
+
+  // single line comment
+  println!("hello rust");
 }
