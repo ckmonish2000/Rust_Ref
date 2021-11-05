@@ -18,7 +18,8 @@ pub fn structures(){
   println!("{:?}", bg_color);
 
   // tuple struct
-  let color = Colors(255,255,255);
+  let mut color = Colors(255,255,255);
+  color.2 = 60;
   println!("{:?}", color);
 
 
