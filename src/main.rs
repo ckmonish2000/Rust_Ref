@@ -32,5 +32,6 @@ fn main() {
     // modules::refs::refs();
     // modules::structures::structures();
     // modules::array::array();
-    modules::struct2::struct2();
+    // modules::struct2::struct2();
+    modules::traits::traits();
 }

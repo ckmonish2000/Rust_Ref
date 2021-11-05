@@ -11,5 +11,6 @@ pub mod refs;
 pub mod structures;
 pub mod struct2;
 pub mod array;
+pub mod traits;
 // constants
 pub const VERSION: f32 = 0.01;
