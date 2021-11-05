@@ -11,5 +11,6 @@ pub fn refs(){
   //  in a given line we can have multiple refrences for  given var
   //  but we can have only one refrence to a mutable refrence
   //  example println!("{}",name,name_r); run it with out the code block
+  
   println!("{}",name);
 }
