@@ -9,5 +9,6 @@ pub mod tuple_mod;
 pub mod functions;
 pub mod refs;
 pub mod structures;
+pub mod array;
 // constants
 pub const VERSION: f32 = 0.01;

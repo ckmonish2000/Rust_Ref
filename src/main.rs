@@ -27,6 +27,6 @@ fn main() {
 
 
     // modules::refs::refs();
-    modules::structures::structures();
-
+    // modules::structures::structures();
+        modules::array::array();
 }
