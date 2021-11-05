@@ -1,8 +1,6 @@
 mod modules;
 
-/* pass by value ref 
-   struct and impl are in the 
-   structures module
+/* pass by value ref struct module
 */
 
 fn main() {
