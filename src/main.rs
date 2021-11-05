@@ -18,14 +18,11 @@ fn main() {
     // println!("{}",x);
 
 
-    // code block
-    let x = 10;
-
-    {
-        let y = 15;
-        println!("{}--{}",x,y);
-    }
-
-    println!("{}",y);
+    // code block are isolated codes that run in the code base
+    // let x = 10;
+    // {
+    //     let y = 15;
+    //     println!("{}--{}",x,y);
+    // }
 
 }
