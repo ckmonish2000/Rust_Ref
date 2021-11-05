@@ -11,4 +11,6 @@ impl Person {
 
 pub fn traits(){
 let dom = Person::new(String::from("mk"), 21);
+
+println!("{}",dom.to_string());
 }
