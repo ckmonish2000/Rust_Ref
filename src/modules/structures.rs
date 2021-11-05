@@ -22,5 +22,28 @@ pub fn structures(){
   color.2 = 60;
   println!("{:?}", color);
 
+  // pass by val
 
+  // pass_by_val(color);
+  
+
+  // pass by ref 
+  pass_by_ref(&mut color);
+  println!("{:?} this is print",color);
+}
+
+
+fn pass_by_val(x:Colors){
+  let mut y = x;
+  y.0 = 0; 
+  y.1 = 0;
+  y.2 = 0;
+  println!("{:?}", y)
+}
+
+
+fn pass_by_ref(x:&mut Colors){
+  x.0 = 0; 
+  x.1 = 0;
+  x.2 = 0;
 }
