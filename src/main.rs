@@ -1,5 +1,10 @@
 mod modules;
 
+/* pass by value ref 
+   struct and impl are in the 
+   structures module
+*/
+
 fn main() {
     // modules::print::run();
     // modules::variables::vars();
