@@ -16,4 +16,16 @@ fn main() {
     // modules::functions::print_2_max(20);
     // let x = modules::functions::is_even(20);
     // println!("{}",x);
+
+
+    // code block
+    let x = 10;
+
+    {
+        let y = 15;
+        println!("{}--{}",x,y);
+    }
+
+    println!("{}",y);
+
 }
