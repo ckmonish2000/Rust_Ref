@@ -5,5 +5,6 @@ fn main() {
     // modules::variables::vars();
     // modules::ifelse::ifelse();
     // modules::infiniteloop::infiniteloop();
-    modules::whileloop::whileloop();
+    // modules::whileloop::whileloop();
+    modules::forloop::forloop();
 }
