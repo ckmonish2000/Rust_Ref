@@ -3,3 +3,7 @@ pub fn print_2_max(x:u64){
     println!("{}",i)
   }
 }
+
+pub fn is_even(x:u64) -> bool{
+  x%2 == 0  
+}
