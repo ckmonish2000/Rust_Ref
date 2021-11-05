@@ -9,6 +9,12 @@ impl Person {
   }
 }
 
+impl ToString for Person {
+  fn to_string(&self) -> String {
+    return format!("name = {} age ={}", &self.name,&self.age);
+  }
+}
+
 pub fn traits(){
 let dom = Person::new(String::from("mk"), 21);
 
