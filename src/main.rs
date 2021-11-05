@@ -10,8 +10,10 @@ fn main() {
     // modules::enum_mod::enum_mod();
     // println!("{}",modules::VERSION);
     // modules::tuple_mod::tuple_mod();
+    
+    
     // funtions
-    modules::functions::print_2_max(20);
+    // modules::functions::print_2_max(20);
     // let x = modules::functions::is_even(20);
     // println!("{}",x);
 }
