@@ -5,3 +5,5 @@ pub mod infiniteloop;
 pub mod whileloop;
 pub mod forloop;
 pub mod enum_mod;
+
+pub const VERSION: f32 = 0.01;

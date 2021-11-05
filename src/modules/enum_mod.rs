@@ -16,4 +16,6 @@ pub fn enum_mod(){
     Direction::Right =>{ println!("your going right"); }
     _=>{ println!("your going somewhere")}
   }
+
+  println!("{:?}", player_direction);
 }

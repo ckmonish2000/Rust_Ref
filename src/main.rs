@@ -7,5 +7,7 @@ fn main() {
     // modules::infiniteloop::infiniteloop();
     // modules::whileloop::whileloop();
     // modules::forloop::forloop();
-    modules::enum_mod::enum_mod();
+    // modules::enum_mod::enum_mod();
+    println!("{}",modules::VERSION);
+
 }
