@@ -8,5 +8,6 @@ pub mod enum_mod;
 pub mod tuple_mod;
 pub mod functions;
 pub mod refs;
+pub mod structures;
 // constants
 pub const VERSION: f32 = 0.01;
