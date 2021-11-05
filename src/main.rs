@@ -6,5 +6,6 @@ fn main() {
     // modules::ifelse::ifelse();
     // modules::infiniteloop::infiniteloop();
     // modules::whileloop::whileloop();
-    modules::forloop::forloop();
+    // modules::forloop::forloop();
+    modules::enum_mod::enum_mod();
 }
