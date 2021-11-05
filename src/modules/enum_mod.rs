@@ -14,5 +14,6 @@ pub fn enum_mod(){
     Direction::Down =>{ println!("your going down"); }
     Direction::Left =>{ println!("your going left"); }
     Direction::Right =>{ println!("your going right"); }
+    _=>{ println!("your going somewhere")}
   }
 }
