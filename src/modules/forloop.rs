@@ -7,8 +7,8 @@ pub fn forloop(){
   let animals: Vec<&str> = vec!["dog","cat"];
   
   // using iter will not transfer ownership 
-  for i in animals.iter(){
-    println!("{}",i);
+  for (i,j) in animals.iter().enumerate() {
+    println!("{}{}",i,j);
   }
 
   println!("{}",animals[0]);
