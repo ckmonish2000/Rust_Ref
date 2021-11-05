@@ -10,6 +10,7 @@ fn main() {
     // modules::enum_mod::enum_mod();
     // println!("{}",modules::VERSION);
     // modules::tuple_mod::tuple_mod();
+    // funtions
     modules::functions::print_2_max(20);
 
 }
