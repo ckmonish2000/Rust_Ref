@@ -34,7 +34,7 @@ fn main() {
     // modules::array::array();
     // modules::struct2::struct2();
     // modules::traits::traits();
-    modules::readfile::read_file();
-
+    // modules::readfile::read_file();
+    modules::evn_var::evn_var();
 
 }
