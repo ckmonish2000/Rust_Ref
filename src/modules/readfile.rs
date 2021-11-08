@@ -6,7 +6,7 @@ pub fn read_file(){
   
   let mut path = env::current_dir();
   let mut path = String::from(path.unwrap().to_str().unwrap());
-  path.push_str("\\src\\modules\\info.txt");
+  path.push_str("\\src\\info.txt");
 
   let mut file = File::open(path).expect("cant open file");
   let mut content = String::new();
