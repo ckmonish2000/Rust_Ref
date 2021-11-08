@@ -35,6 +35,6 @@ fn main() {
     // modules::struct2::struct2();
     // modules::traits::traits();
     // modules::readfile::read_file();
-    modules::evn_var::evn_var();
-
+    // modules::evn_var::evn_var();
+    modules::write::write();
 }

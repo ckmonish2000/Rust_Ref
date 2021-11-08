@@ -14,5 +14,6 @@ pub mod array;
 pub mod traits;
 pub mod readfile;
 pub mod evn_var;
+pub mod write;
 // constants
 pub const VERSION: f32 = 0.01;
