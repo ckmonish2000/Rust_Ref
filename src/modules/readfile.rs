@@ -13,5 +13,7 @@ pub fn read_file(){
 
   file.read_to_string(&mut content).unwrap();
 
-  println!("{}", content);
+  for i in content.split(" ") {
+    println!("{}",i);
+  }
 }
