@@ -1,5 +1,6 @@
 mod modules;
-
+extern crate rand;
+use rand::Rng;
 /* pass by value ref struct module
 */
 
@@ -38,5 +39,9 @@ fn main() {
     // modules::evn_var::evn_var();
     // modules::write::write();
     // modules::matchs::matchs();
-    modules::userip::userip();
+    // modules::userip::userip();
+    // modules::hashmap::hashmap();
+
+    println!("{}",rand::thread_rng().gen_range(1,11));
+
 }

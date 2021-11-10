@@ -17,5 +17,6 @@ pub mod evn_var;
 pub mod write;
 pub mod matchs;
 pub mod userip;
+pub mod hashmap;
 // constants
 pub const VERSION: f32 = 0.01;
