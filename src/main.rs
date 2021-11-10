@@ -33,8 +33,9 @@ fn main() {
     // modules::structures::structures();
     // modules::array::array();
     // modules::struct2::struct2();
-    modules::traits::traits();
+    // modules::traits::traits();
     // modules::readfile::read_file();
     // modules::evn_var::evn_var();
     // modules::write::write();
+    modules::matchs::matchs();
 }
